@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="12"
+      alignment="CENTER"
+      xmlns="http://javafx.com/javafx/25"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.otomasyon.controller.RandevuGoruntulePanelController"
+      style="-fx-background-color: #F3F7FB; -fx-padding: 25;">
+
+    <Label text="RANDEVU GÖRÜNTÜLE"
+           style="-fx-font-size:18; -fx-font-weight:bold; -fx-text-fill:#014f86;"/>
+
+    <Button text="Randevuları Göster"
+            prefWidth="220"
+            onAction="#randevuGoruntule"
+            style="-fx-background-color:#014f86; -fx-text-fill:white;"/>
+
+    <TextArea fx:id="txtListe"
+              prefWidth="450"
+              prefHeight="300"
+              editable="false"
+              wrapText="true"/>
+
+</VBox>

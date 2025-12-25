@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.ComboBox?>
+
+
+<VBox spacing="10"
+      alignment="CENTER"
+      xmlns="http://javafx.com/javafx/25"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.otomasyon.controller.OgrenciGuncellePanelController"
+      style="-fx-background-color: #F3F7FB; -fx-padding: 25;">
+
+    <Label text="ÖĞRENCİ GÜNCELLE"
+           style="-fx-font-size:18; -fx-font-weight:bold;"/>
+
+    <TextField fx:id="txtId"
+               promptText="Öğrenci ID"
+               maxWidth="250"/>
+
+    <Button text="Bilgileri Getir"
+            onAction="#bilgileriGetir"
+            prefWidth="150"/>
+
+    <Separator/>
+
+    <TextField fx:id="txtAd" promptText="Ad" maxWidth="250"/>
+    <TextField fx:id="txtSoyad" promptText="Soyad" maxWidth="250"/>
+    <TextField fx:id="txtEmail" promptText="Email" maxWidth="250"/>
+    <TextField fx:id="txtTel" promptText="Telefon" maxWidth="250"/>
+    <ComboBox fx:id="cmbSeviye" promptText="Seviye Seçiniz" maxWidth="250"/>
+
+    <Button text="Güncelle"
+            maxWidth="150"
+            onAction="#guncelle"
+            style="-fx-background-color:#014f86; -fx-text-fill:white;"/>
+
+</VBox>

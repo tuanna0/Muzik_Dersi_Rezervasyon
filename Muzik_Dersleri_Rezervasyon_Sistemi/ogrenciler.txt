@@ -1,0 +1,8 @@
+10;taha;özdemir;taha@gmail.com;12345454543;5352563253;Orta
+8;Ömer;Karakaya;omerkarakaya@gmail.com;11147755630;5396324222;İleri
+7;Gülizar;Yerebakan;yerabakan@gmail.com;56186486486;5186448648;Orta
+3;Merve;Baykal;merve@gmail.com;12345678988;5367854515;Başlangıç
+4;Yusuf;Barulay;yusuf@gmail.com;78945678912;5784561242;Orta
+5;Ramazan;Şimşek;ramo@gmail.com;14123579845;5308499562;Başlangıç
+6;Mustafa;Kılıç;mustafa@gmail.com;12542565256;5354215212;Başlangıç
+11;Elif;Tokuçoğlu;eliftokucoglu@gmail.com;12345678910;5050912319;İleri

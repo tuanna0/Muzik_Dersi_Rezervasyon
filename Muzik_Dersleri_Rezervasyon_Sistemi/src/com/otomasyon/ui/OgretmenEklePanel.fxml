@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.otomasyon.controller.OgretmenEklePanelController" style="-fx-background-color: #F3F7FB; -fx-padding: 25;">
+
+    <Label text="ÖĞRETMEN EKLE" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill:#014f86;"/>
+
+    <TextField fx:id="txtAd" promptText="Ad" maxWidth="250"/>
+    <TextField fx:id="txtSoyad" promptText="Soyad" maxWidth="250"/>
+    <TextField fx:id="txtEmail" promptText="Email" maxWidth="250"/>
+    <TextField fx:id="txtTckn" promptText="TCKN" maxWidth="250"/>
+    <TextField fx:id="txtTel" promptText="Telefon" maxWidth="250"/>
+    <TextField fx:id="txtMaas" promptText="Maaş" maxWidth="250"/>
+
+    <Button text="Ekle" onAction="#ogretmenEkle" maxWidth="150" style="-fx-background-color:#014f86; -fx-text-fill:white;"/>
+
+</VBox>

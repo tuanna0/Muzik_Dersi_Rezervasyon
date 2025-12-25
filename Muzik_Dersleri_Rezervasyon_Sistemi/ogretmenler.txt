@@ -1,0 +1,4 @@
+5;Şükufe;Aslan;sukufe@gmail.com;11756428622;5664848464;30000.0
+4;Azra;Doğan;azradogan@gmail.com;45286315486;5354864354;25000.0
+3;Ahmet;Candan;ahmet@gmail.com;45678965412;5397894521;20000.0
+1;Emre;Hakverdi;emrehakverdi@gmail.com;11720736186;5458029344;25000.0

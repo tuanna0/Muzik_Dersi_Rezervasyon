@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/25"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.otomasyon.controller.DersEklePanelController"
+           style="-fx-background-color: #F3F7FB;">
+
+    <GridPane hgap="15" vgap="15"
+              alignment="CENTER"
+              style="-fx-padding:30;">
+
+        <Label text="Ders Ekle"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="0"
+               GridPane.columnSpan="2"
+               style="-fx-font-size:18; -fx-font-weight:bold; -fx-text-fill:#014f86;" />
+
+        <Label text="Ders Adı:"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="1"/>
+
+        <ComboBox fx:id="cmbDersAdi"
+                  GridPane.columnIndex="1"
+                  GridPane.rowIndex="1"
+                  prefWidth="220"/>
+
+        <Label text="Süre (dk):"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="2"/>
+
+        <TextField fx:id="txtSure"
+                   GridPane.columnIndex="1"
+                   GridPane.rowIndex="2"
+                   prefWidth="220"/>
+
+        <Label text="Ücret:"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="3"/>
+
+        <TextField fx:id="txtUcret"
+                   GridPane.columnIndex="1"
+                   GridPane.rowIndex="3"
+                   prefWidth="220"/>
+
+        <Label text="Öğretmen ID:"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="4"/>
+
+        <TextField fx:id="txtOgretmenId"
+                   GridPane.columnIndex="1"
+                   GridPane.rowIndex="4"
+                   prefWidth="220"/>
+
+        <Button text="Ders Ekle"
+                GridPane.columnIndex="0"
+                GridPane.rowIndex="5"
+                GridPane.columnSpan="2"
+                prefWidth="200"
+                style="-fx-background-color:#014f86; -fx-text-fill:white;"
+                onAction="#dersEkle"/>
+
+    </GridPane>
+
+</StackPane>

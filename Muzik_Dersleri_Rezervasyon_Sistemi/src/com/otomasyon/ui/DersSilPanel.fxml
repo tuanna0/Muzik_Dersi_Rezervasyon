@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15"
+      alignment="CENTER"
+      xmlns="http://javafx.com/javafx/25"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.otomasyon.controller.DersSilPanelController"
+      style="-fx-background-color: #F3F7FB; -fx-padding: 25;">
+
+    <Label text="Ders Sil"
+           style="-fx-font-size:18; -fx-font-weight:bold; -fx-text-fill:#014f86;"/>
+
+    <ComboBox fx:id="cmbDersAdi"
+              promptText="Silinecek dersi seçiniz"
+              prefWidth="250"/>
+
+    <Button text="Ders Sil"
+            prefWidth="180"
+            onAction="#dersSil"
+            style="-fx-background-color:#014f86; -fx-text-fill:white;"/>
+
+</VBox>
